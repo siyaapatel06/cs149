@@ -1,0 +1,16 @@
+ 1042  sleep 10
+ 1043  cd ~/xv6-labs-2023\nnano Makefile
+ 1044  make clean\nmake TOOLPREFIX=riscv64-elf- qemu
+ 1045  make clean\nmake TOOLPREFIX=riscv64-elf- qemu
+ 1046  cd ~/xv6-labs-2023\ngit checkout -- Makefile
+ 1047  nano Makefile
+ 1048  ^[[200~make clean
+ 1049  make TOOLPREFIX=riscv64-elf- qemu~
+ 1050  make clean\nmake TOOLPREFIX=riscv64-elf- qemu
+ 1051  cd ~/xv6-labs-2023\nmake clean\nmake TOOLPREFIX=riscv64-elf- CPUS=1 qemu
+ 1052  sed -i '' 's/-Werror//g' Makefile
+ 1053  make clean\nmake TOOLPREFIX=riscv64-elf- CPUS=1 qemu
+ 1054  nano Makefile
+ 1055  ^[[200~make clean
+ 1056  make TOOLPREFIX=riscv64-elf- CPUS=1 qemu~
+ 1057  make clean\nmake TOOLPREFIX=riscv64-elf- CPUS=1 qemu
